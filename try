@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+COMMAND="$GOPATH/bin/$@"
+echo "> ${COMMAND}"
+eval "${COMMAND}"
